@@ -1,0 +1,611 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-10-19">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Sierra_Leone" label="Sierra_Leone">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1760" label="1760">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="Total_CO2_Emissions" label="Total_CO2_Emissions">
+        <attvalues>
+          <attvalue for="0" value="METRIC" />
+        </attvalues>
+      </node>
+      <node id="CO2_Growth_Percentage" label="CO2_Growth_Percentage">
+        <attvalues>
+          <attvalue for="0" value="METRIC" />
+        </attvalues>
+      </node>
+      <node id="Population" label="Population">
+        <attvalues>
+          <attvalue for="0" value="METRIC" />
+        </attvalues>
+      </node>
+      <node id="GHG_per_Capita" label="GHG_per_Capita">
+        <attvalues>
+          <attvalue for="0" value="METRIC" />
+        </attvalues>
+      </node>
+      <node id="Land_Use_CO2" label="Land_Use_CO2">
+        <attvalues>
+          <attvalue for="0" value="METRIC" />
+        </attvalues>
+      </node>
+      <node id="GDP" label="GDP">
+        <attvalues>
+          <attvalue for="0" value="METRIC" />
+        </attvalues>
+      </node>
+      <node id="Moldova" label="Moldova">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="2017" label="2017">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="Total CO2 Emissions" label="Total CO2 Emissions">
+        <attvalues>
+          <attvalue for="0" value="METRIC" />
+        </attvalues>
+      </node>
+      <node id="CO2 Growth (%)" label="CO2 Growth (%)">
+        <attvalues>
+          <attvalue for="0" value="METRIC" />
+        </attvalues>
+      </node>
+      <node id="GHG per Capita" label="GHG per Capita">
+        <attvalues>
+          <attvalue for="0" value="METRIC" />
+        </attvalues>
+      </node>
+      <node id="Land Use CO2" label="Land Use CO2">
+        <attvalues>
+          <attvalue for="0" value="METRIC" />
+        </attvalues>
+      </node>
+      <node id="Europe (GCP)" label="Europe (GCP)">
+        <attvalues>
+          <attvalue for="0" value="METRIC" />
+        </attvalues>
+      </node>
+      <node id="1902" label="1902">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="Greece" label="Greece">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1859" label="1859">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="Romania" label="Romania">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1935" label="1935">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="Iraq" label="Iraq">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1850" label="1850">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="391.27" label="391.27" />
+      <node id="391.27%" label="391.27%" />
+      <node id="1249026" label="1249026" />
+      <node id="5.75" label="5.75" />
+      <node id="0.55" label="0.55" />
+      <node id="25979985920.00" label="25979985920.00" />
+      <node id="North_America_excl_USA" label="North_America_excl_USA">
+        <attvalues>
+          <attvalue for="0" value="REGION" />
+        </attvalues>
+      </node>
+      <node id="1917" label="1917">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="Tanzania" label="Tanzania">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="2018" label="2018">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="Ireland" label="Ireland">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1936" label="1936">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="Slovenia" label="Slovenia">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1961" label="1961">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="CO2_Growth_CO2_Growth_Percent" label="CO2_Growth_CO2_Growth_Percent">
+        <attvalues>
+          <attvalue for="0" value="METRIC" />
+        </attvalues>
+      </node>
+      <node id="Angola" label="Angola">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1906" label="1906">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="2980714" label="2980714" />
+      <node id="5.62" label="5.62" />
+      <node id="21.68" label="21.68" />
+      <node id="Mauritania" label="Mauritania">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1815" label="1815">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="Tajikistan" label="Tajikistan">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1966" label="1966">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="Ethiopia" label="Ethiopia">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1962" label="1962">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="Gambia" label="Gambia">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1885" label="1885">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="Bangladesh" label="Bangladesh">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="23168272" label="23168272" />
+      <node id="1.05" label="1.05" />
+      <node id="13.03" label="13.03" />
+      <node id="Mozambique" label="Mozambique">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1985" label="1985">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="1.14" label="1.14" />
+      <node id="1.14%" label="1.14%" />
+      <node id="12680070" label="12680070" />
+      <node id="4.44" label="4.44" />
+      <node id="21.87" label="21.87" />
+      <node id="19149770752.00" label="19149770752.00" />
+      <node id="Ukraine" label="Ukraine">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1876" label="1876">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="Armenia" label="Armenia">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1924" label="1924">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="OECD_GCP_1853" label="OECD_GCP_1853">
+        <attvalues>
+          <attvalue for="0" value="METRIC" />
+        </attvalues>
+      </node>
+      <node id="1905" label="1905">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="Christmas Island" label="Christmas Island">
+        <attvalues>
+          <attvalue for="0" value="LOCATION" />
+        </attvalues>
+      </node>
+      <node id="1949" label="1949">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="2456362" label="2456362" />
+      <node id="nan" label="nan" />
+      <node id="Laos" label="Laos">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1863" label="1863">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="Mongolia" label="Mongolia">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1853" label="1853">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="Georgia" label="Georgia">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="2004" label="2004">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="Antigua and Barbuda" label="Antigua and Barbuda">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1878" label="1878">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="Israel" label="Israel">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1901" label="1901">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="364057" label="364057" />
+      <node id="11.35" label="11.35" />
+      <node id="-0.14" label="-0.14" />
+      <node id="Guinea-Bissau" label="Guinea-Bissau">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="2002" label="2002">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="Micronesia" label="Micronesia">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1971" label="1971">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+      <node id="60688" label="60688" />
+      <node id="1.71" label="1.71" />
+      <node id="0.00" label="0.00" />
+      <node id="Cook Islands" label="Cook Islands">
+        <attvalues>
+          <attvalue for="0" value="COUNTRY" />
+        </attvalues>
+      </node>
+      <node id="1865" label="1865">
+        <attvalues>
+          <attvalue for="0" value="YEAR" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Sierra_Leone" target="1760" id="0" type="MEASURED_IN" />
+      <edge source="Sierra_Leone" target="Total_CO2_Emissions" id="1" type="SHOWS_EMISSIONS" />
+      <edge source="Sierra_Leone" target="CO2_Growth_Percentage" id="2" type="SHOWS_EMISSIONS" />
+      <edge source="Sierra_Leone" target="Population" id="3" type="HAS_POPULATION" />
+      <edge source="Sierra_Leone" target="GHG_per_Capita" id="4" type="HAS_GHG_PER_CAPITA" />
+      <edge source="Sierra_Leone" target="Land_Use_CO2" id="5" type="HAS_LAND_USE_CO2" />
+      <edge source="Sierra_Leone" target="GDP" id="6" type="HAS_GDP" />
+      <edge source="Total_CO2_Emissions" target="North_America_excl_USA" id="7" type="SHOWS_EMISSIONS" />
+      <edge source="Total_CO2_Emissions" target="CO2_Growth_Percentage" id="8" type="RELATED_TO" />
+      <edge source="Total_CO2_Emissions" target="391.27" id="9" type="VALUE" />
+      <edge source="CO2_Growth_Percentage" target="North_America_excl_USA" id="10" type="SHOWS_EMISSIONS" />
+      <edge source="CO2_Growth_Percentage" target="391.27%" id="11" type="VALUE" />
+      <edge source="Population" target="1249026" id="12" type="VALUE" />
+      <edge source="Population" target="North_America_excl_USA" id="13" type="SHOWS_EMISSIONS" />
+      <edge source="Population" target="2980714" id="14" type="VALUE" />
+      <edge source="Population" target="23168272" id="15" type="VALUE" />
+      <edge source="Population" target="12680070" id="16" type="VALUE" />
+      <edge source="Population" target="2456362" id="17" type="VALUE" />
+      <edge source="Population" target="364057" id="18" type="VALUE" />
+      <edge source="Population" target="Guinea-Bissau" id="19" type="SHOWS_EMISSIONS" />
+      <edge source="Population" target="60688" id="20" type="VALUE" />
+      <edge source="GHG_per_Capita" target="North_America_excl_USA" id="21" type="SHOWS_EMISSIONS" />
+      <edge source="GHG_per_Capita" target="11.35" id="22" type="VALUE" />
+      <edge source="Land_Use_CO2" target="North_America_excl_USA" id="23" type="SHOWS_EMISSIONS" />
+      <edge source="Land_Use_CO2" target="-0.14" id="24" type="VALUE" />
+      <edge source="GDP" target="25979985920.00" id="25" type="VALUE" />
+      <edge source="GDP" target="North_America_excl_USA" id="26" type="SHOWS_EMISSIONS" />
+      <edge source="GDP" target="19149770752.00" id="27" type="VALUE" />
+      <edge source="GDP" target="Guinea-Bissau" id="28" type="SHOWS_EMISSIONS" />
+      <edge source="Moldova" target="2017" id="29" type="MEASURED_IN" />
+      <edge source="Moldova" target="Total CO2 Emissions" id="30" type="SHOWS_EMISSIONS" />
+      <edge source="Moldova" target="CO2 Growth (%)" id="31" type="SHOWS_EMISSIONS" />
+      <edge source="Moldova" target="Population" id="32" type="HAS_POPULATION" />
+      <edge source="Moldova" target="GHG per Capita" id="33" type="HAS_GHG_PER_CAPITA" />
+      <edge source="Moldova" target="Land Use CO2" id="34" type="HAS_LAND_USE_CO2" />
+      <edge source="Moldova" target="GDP" id="35" type="HAS_GDP" />
+      <edge source="Moldova" target="1905" id="36" type="MEASURED_IN" />
+      <edge source="Total CO2 Emissions" target="391.27" id="37" type="VALUE" />
+      <edge source="Total CO2 Emissions" target="1.14" id="38" type="VALUE" />
+      <edge source="Total CO2 Emissions" target="Guinea-Bissau" id="39" type="SHOWS_EMISSIONS" />
+      <edge source="CO2 Growth (%)" target="391.27%" id="40" type="VALUE" />
+      <edge source="CO2 Growth (%)" target="1.14%" id="41" type="VALUE" />
+      <edge source="CO2 Growth (%)" target="Guinea-Bissau" id="42" type="SHOWS_EMISSIONS" />
+      <edge source="GHG per Capita" target="5.75" id="43" type="VALUE" />
+      <edge source="GHG per Capita" target="5.62" id="44" type="VALUE" />
+      <edge source="GHG per Capita" target="1.05" id="45" type="VALUE" />
+      <edge source="GHG per Capita" target="4.44" id="46" type="VALUE" />
+      <edge source="GHG per Capita" target="Guinea-Bissau" id="47" type="SHOWS_EMISSIONS" />
+      <edge source="GHG per Capita" target="1.71" id="48" type="VALUE" />
+      <edge source="Land Use CO2" target="0.55" id="49" type="VALUE" />
+      <edge source="Land Use CO2" target="21.68" id="50" type="VALUE" />
+      <edge source="Land Use CO2" target="13.03" id="51" type="VALUE" />
+      <edge source="Land Use CO2" target="21.87" id="52" type="VALUE" />
+      <edge source="Land Use CO2" target="nan" id="53" type="VALUE" />
+      <edge source="Land Use CO2" target="Guinea-Bissau" id="54" type="SHOWS_EMISSIONS" />
+      <edge source="Land Use CO2" target="0.00" id="55" type="VALUE" />
+      <edge source="Europe (GCP)" target="1902" id="56" type="MEASURED_IN" />
+      <edge source="Europe (GCP)" target="Total CO2 Emissions" id="57" type="HAS_VALUE" />
+      <edge source="Europe (GCP)" target="CO2 Growth (%)" id="58" type="HAS_VALUE" />
+      <edge source="Europe (GCP)" target="Population" id="59" type="HAS_VALUE" />
+      <edge source="Europe (GCP)" target="GHG per Capita" id="60" type="HAS_VALUE" />
+      <edge source="Europe (GCP)" target="Land Use CO2" id="61" type="HAS_VALUE" />
+      <edge source="Europe (GCP)" target="GDP" id="62" type="HAS_VALUE" />
+      <edge source="Greece" target="1859" id="63" type="MEASURED_IN" />
+      <edge source="Greece" target="Total CO2 Emissions" id="64" type="SHOWS_EMISSIONS" />
+      <edge source="Greece" target="CO2 Growth (%)" id="65" type="SHOWS_EMISSIONS" />
+      <edge source="Greece" target="Population" id="66" type="SHOWS_EMISSIONS" />
+      <edge source="Greece" target="GHG per Capita" id="67" type="SHOWS_EMISSIONS" />
+      <edge source="Greece" target="Land Use CO2" id="68" type="SHOWS_EMISSIONS" />
+      <edge source="Greece" target="GDP" id="69" type="SHOWS_EMISSIONS" />
+      <edge source="Romania" target="1935" id="70" type="MEASURED_IN" />
+      <edge source="Romania" target="Total CO2 Emissions" id="71" type="SHOWS_EMISSIONS" />
+      <edge source="Romania" target="CO2 Growth (%)" id="72" type="SHOWS_EMISSIONS" />
+      <edge source="Romania" target="Population" id="73" type="SHOWS_EMISSIONS" />
+      <edge source="Romania" target="GHG per Capita" id="74" type="SHOWS_EMISSIONS" />
+      <edge source="Romania" target="Land Use CO2" id="75" type="SHOWS_EMISSIONS" />
+      <edge source="Romania" target="GDP" id="76" type="SHOWS_EMISSIONS" />
+      <edge source="Iraq" target="1850" id="77" type="MEASURED_IN" />
+      <edge source="Iraq" target="Total CO2 Emissions" id="78" type="SHOWS_EMISSIONS" />
+      <edge source="Iraq" target="CO2 Growth (%)" id="79" type="SHOWS_EMISSIONS" />
+      <edge source="Iraq" target="Population" id="80" type="SHOWS_EMISSIONS" />
+      <edge source="Iraq" target="GHG per Capita" id="81" type="SHOWS_EMISSIONS" />
+      <edge source="Iraq" target="Land Use CO2" id="82" type="SHOWS_EMISSIONS" />
+      <edge source="Iraq" target="GDP" id="83" type="SHOWS_EMISSIONS" />
+      <edge source="North_America_excl_USA" target="1917" id="84" type="MEASURED_IN" />
+      <edge source="Tanzania" target="Total CO2 Emissions" id="85" type="SHOWS_EMISSIONS" />
+      <edge source="Tanzania" target="CO2 Growth (%)" id="86" type="SHOWS_EMISSIONS" />
+      <edge source="Tanzania" target="Population" id="87" type="SHOWS_EMISSIONS" />
+      <edge source="Tanzania" target="GHG per Capita" id="88" type="SHOWS_EMISSIONS" />
+      <edge source="Tanzania" target="Land Use CO2" id="89" type="SHOWS_EMISSIONS" />
+      <edge source="Tanzania" target="GDP" id="90" type="SHOWS_EMISSIONS" />
+      <edge source="2018" target="Tanzania" id="91" type="LOCATED_IN" />
+      <edge source="Ireland" target="1936" id="92" type="MEASURED_IN" />
+      <edge source="Ireland" target="Total CO2 Emissions" id="93" type="SHOWS_EMISSIONS" />
+      <edge source="Ireland" target="CO2 Growth (%)" id="94" type="SHOWS_EMISSIONS" />
+      <edge source="Ireland" target="Population" id="95" type="SHOWS_EMISSIONS" />
+      <edge source="Ireland" target="GHG per Capita" id="96" type="SHOWS_EMISSIONS" />
+      <edge source="Ireland" target="Land Use CO2" id="97" type="SHOWS_EMISSIONS" />
+      <edge source="Ireland" target="GDP" id="98" type="SHOWS_EMISSIONS" />
+      <edge source="Slovenia" target="1961" id="99" type="MEASURED_IN" />
+      <edge source="Slovenia" target="Total_CO2_Emissions" id="100" type="SHOWS_EMISSIONS" />
+      <edge source="Slovenia" target="CO2_Growth_CO2_Growth_Percent" id="101" type="SHOWS_EMISSIONS" />
+      <edge source="Slovenia" target="Population" id="102" type="HAS_POPULATION" />
+      <edge source="Slovenia" target="GHG_per_Capita" id="103" type="HAS_GHG_PER_CAPITA" />
+      <edge source="Slovenia" target="Land_Use_CO2" id="104" type="HAS_LAND_USE_CO2" />
+      <edge source="Slovenia" target="GDP" id="105" type="HAS_GDP" />
+      <edge source="Angola" target="1906" id="106" type="MEASURED_IN" />
+      <edge source="Angola" target="Total CO2 Emissions" id="107" type="SHOWS_EMISSIONS" />
+      <edge source="Angola" target="CO2 Growth (%)" id="108" type="SHOWS_EMISSIONS" />
+      <edge source="Angola" target="Population" id="109" type="SHOWS_EMISSIONS" />
+      <edge source="Angola" target="GHG per Capita" id="110" type="SHOWS_EMISSIONS" />
+      <edge source="Angola" target="Land Use CO2" id="111" type="SHOWS_EMISSIONS" />
+      <edge source="Angola" target="GDP" id="112" type="SHOWS_EMISSIONS" />
+      <edge source="Mauritania" target="1815" id="113" type="MEASURED_IN" />
+      <edge source="Mauritania" target="Total_CO2_Emissions" id="114" type="SHOWS_EMISSIONS" />
+      <edge source="Mauritania" target="CO2_Growth_Percentage" id="115" type="SHOWS_EMISSIONS" />
+      <edge source="Mauritania" target="Population" id="116" type="HAS_POPULATION" />
+      <edge source="Mauritania" target="GHG_per_Capita" id="117" type="HAS_GHG_PER_CAPITA" />
+      <edge source="Mauritania" target="Land_Use_CO2" id="118" type="HAS_LAND_USE_CO2" />
+      <edge source="Mauritania" target="GDP" id="119" type="HAS_GDP" />
+      <edge source="Tajikistan" target="1966" id="120" type="HAS_YEAR" />
+      <edge source="Tajikistan" target="Total CO2 Emissions" id="121" type="SHOWS_EMISSIONS" />
+      <edge source="Tajikistan" target="CO2 Growth (%)" id="122" type="SHOWS_EMISSIONS" />
+      <edge source="Tajikistan" target="Population" id="123" type="HAS_VALUE" />
+      <edge source="Tajikistan" target="GHG per Capita" id="124" type="HAS_VALUE" />
+      <edge source="Tajikistan" target="Land Use CO2" id="125" type="HAS_VALUE" />
+      <edge source="Tajikistan" target="GDP" id="126" type="HAS_VALUE" />
+      <edge source="Ethiopia" target="1962" id="127" type="HAS_YEAR" />
+      <edge source="Ethiopia" target="Total CO2 Emissions" id="128" type="SHOWS_EMISSIONS" />
+      <edge source="Ethiopia" target="CO2 Growth (%)" id="129" type="SHOWS_EMISSIONS" />
+      <edge source="Ethiopia" target="Population" id="130" type="HAS_VALUE" />
+      <edge source="Ethiopia" target="GHG per Capita" id="131" type="HAS_VALUE" />
+      <edge source="Ethiopia" target="Land Use CO2" id="132" type="HAS_VALUE" />
+      <edge source="Ethiopia" target="GDP" id="133" type="HAS_VALUE" />
+      <edge source="Gambia" target="1885" id="134" type="MEASURED_IN" />
+      <edge source="Gambia" target="Total CO2 Emissions" id="135" type="SHOWS_EMISSIONS" />
+      <edge source="Gambia" target="CO2 Growth (%)" id="136" type="SHOWS_EMISSIONS" />
+      <edge source="Gambia" target="Population" id="137" type="SHOWS_EMISSIONS" />
+      <edge source="Gambia" target="GHG per Capita" id="138" type="SHOWS_EMISSIONS" />
+      <edge source="Gambia" target="Land Use CO2" id="139" type="SHOWS_EMISSIONS" />
+      <edge source="Gambia" target="GDP" id="140" type="SHOWS_EMISSIONS" />
+      <edge source="Bangladesh" target="1859" id="141" type="MEASURED_IN" />
+      <edge source="Bangladesh" target="Total CO2 Emissions" id="142" type="SHOWS_EMISSIONS" />
+      <edge source="Bangladesh" target="CO2 Growth (%)" id="143" type="SHOWS_EMISSIONS" />
+      <edge source="Bangladesh" target="Population" id="144" type="SHOWS_EMISSIONS" />
+      <edge source="Bangladesh" target="GHG per Capita" id="145" type="SHOWS_EMISSIONS" />
+      <edge source="Bangladesh" target="Land Use CO2" id="146" type="SHOWS_EMISSIONS" />
+      <edge source="Bangladesh" target="GDP" id="147" type="SHOWS_EMISSIONS" />
+      <edge source="Mozambique" target="1985" id="148" type="HAS_YEAR" />
+      <edge source="Mozambique" target="Total CO2 Emissions" id="149" type="SHOWS" />
+      <edge source="Mozambique" target="CO2 Growth (%)" id="150" type="SHOWS" />
+      <edge source="Mozambique" target="Population" id="151" type="SHOWS" />
+      <edge source="Mozambique" target="GHG per Capita" id="152" type="SHOWS" />
+      <edge source="Mozambique" target="Land Use CO2" id="153" type="SHOWS" />
+      <edge source="Mozambique" target="GDP" id="154" type="SHOWS" />
+      <edge source="Ukraine" target="1876" id="155" type="MEASURED_IN" />
+      <edge source="Ukraine" target="Total CO2 Emissions" id="156" type="SHOWS_EMISSIONS" />
+      <edge source="Ukraine" target="CO2 Growth (%)" id="157" type="SHOWS_EMISSIONS" />
+      <edge source="Ukraine" target="Population" id="158" type="HAS_POPULATION" />
+      <edge source="Ukraine" target="GHG per Capita" id="159" type="HAS_PER_CAPITA" />
+      <edge source="Ukraine" target="Land Use CO2" id="160" type="SHOWS_EMISSIONS" />
+      <edge source="Ukraine" target="GDP" id="161" type="HAS_GDP" />
+      <edge source="Armenia" target="1924" id="162" type="MEASURED_IN" />
+      <edge source="Armenia" target="Total CO2 Emissions" id="163" type="SHOWS_EMISSIONS" />
+      <edge source="Armenia" target="CO2 Growth (%)" id="164" type="SHOWS_EMISSIONS" />
+      <edge source="Armenia" target="Population" id="165" type="HAS_POPULATION" />
+      <edge source="Armenia" target="GHG per Capita" id="166" type="HAS_GHG_PER_CAPITA" />
+      <edge source="Armenia" target="Land Use CO2" id="167" type="SHOWS_EMISSIONS" />
+      <edge source="Armenia" target="GDP" id="168" type="HAS_GDP" />
+      <edge source="OECD_GCP_1853" target="Total_CO2_Emissions" id="169" type="SHOWS_EMISSIONS" />
+      <edge source="OECD_GCP_1853" target="Population" id="170" type="SHOWS_EMISSIONS" />
+      <edge source="OECD_GCP_1853" target="GHG_per_Capita" id="171" type="SHOWS_EMISSIONS" />
+      <edge source="OECD_GCP_1853" target="GDP" id="172" type="SHOWS_EMISSIONS" />
+      <edge source="Christmas Island" target="1949" id="173" type="MEASURED_IN" />
+      <edge source="Christmas Island" target="Total CO2 Emissions" id="174" type="SHOWS" />
+      <edge source="Christmas Island" target="CO2 Growth (%)" id="175" type="SHOWS" />
+      <edge source="Christmas Island" target="Population" id="176" type="SHOWS" />
+      <edge source="Christmas Island" target="GHG per Capita" id="177" type="SHOWS" />
+      <edge source="Christmas Island" target="Land Use CO2" id="178" type="SHOWS" />
+      <edge source="Christmas Island" target="GDP" id="179" type="SHOWS" />
+      <edge source="Laos" target="1863" id="180" type="MEASURED_IN" />
+      <edge source="Laos" target="Total CO2 Emissions" id="181" type="SHOWS_EMISSIONS" />
+      <edge source="Laos" target="CO2 Growth (%)" id="182" type="SHOWS_EMISSIONS" />
+      <edge source="Laos" target="Population" id="183" type="HAS_POPULATION" />
+      <edge source="Laos" target="GHG per Capita" id="184" type="HAS_GHG_PER_CAPITA" />
+      <edge source="Laos" target="Land Use CO2" id="185" type="SHOWS_EMISSIONS" />
+      <edge source="Laos" target="GDP" id="186" type="HAS_GDP" />
+      <edge source="Mongolia" target="1853" id="187" type="MEASURED_IN" />
+      <edge source="Mongolia" target="Total CO2 Emissions" id="188" type="SHOWS_EMISSIONS" />
+      <edge source="Mongolia" target="CO2 Growth (%)" id="189" type="SHOWS_EMISSIONS" />
+      <edge source="Mongolia" target="Population" id="190" type="HAS_POPULATION" />
+      <edge source="Mongolia" target="GHG per Capita" id="191" type="HAS_EMISSION" />
+      <edge source="Mongolia" target="Land Use CO2" id="192" type="HAS_CO2" />
+      <edge source="Mongolia" target="GDP" id="193" type="HAS_GDP" />
+      <edge source="Georgia" target="2004" id="194" type="MEASURED_IN" />
+      <edge source="Georgia" target="Total CO2 Emissions" id="195" type="SHOWS_EMISSIONS" />
+      <edge source="Georgia" target="CO2 Growth (%)" id="196" type="SHOWS_EMISSIONS" />
+      <edge source="Georgia" target="Population" id="197" type="HAS_POPULATION" />
+      <edge source="Georgia" target="GHG per Capita" id="198" type="HAS_PER_CAPITA" />
+      <edge source="Georgia" target="Land Use CO2" id="199" type="SHOWS_EMISSIONS" />
+      <edge source="Georgia" target="GDP" id="200" type="HAS_GDP" />
+      <edge source="Antigua and Barbuda" target="1878" id="201" type="MEASURED_IN" />
+      <edge source="Antigua and Barbuda" target="Total CO2 Emissions" id="202" type="SHOWS_EMISSIONS" />
+      <edge source="Antigua and Barbuda" target="CO2 Growth (%)" id="203" type="SHOWS_EMISSIONS" />
+      <edge source="Antigua and Barbuda" target="Population" id="204" type="SHOWS_EMISSIONS" />
+      <edge source="Antigua and Barbuda" target="GHG per Capita" id="205" type="SHOWS_EMISSIONS" />
+      <edge source="Antigua and Barbuda" target="Land Use CO2" id="206" type="SHOWS_EMISSIONS" />
+      <edge source="Antigua and Barbuda" target="GDP" id="207" type="SHOWS_EMISSIONS" />
+      <edge source="Israel" target="1901" id="208" type="MEASURED_IN" />
+      <edge source="Israel" target="Total_CO2_Emissions" id="209" type="SHOWS_EMISSIONS" />
+      <edge source="Israel" target="CO2_Growth_Percentage" id="210" type="SHOWS_EMISSIONS" />
+      <edge source="Israel" target="Population" id="211" type="SHOWS_EMISSIONS" />
+      <edge source="Israel" target="GHG_per_Capita" id="212" type="SHOWS_EMISSIONS" />
+      <edge source="Israel" target="Land_Use_CO2" id="213" type="SHOWS_EMISSIONS" />
+      <edge source="Israel" target="GDP" id="214" type="SHOWS_EMISSIONS" />
+      <edge source="Guinea-Bissau" target="2002" id="215" type="MEASURED_IN" />
+      <edge source="Micronesia" target="1971" id="216" type="MEASURED_IN" />
+      <edge source="Micronesia" target="Total CO2 Emissions" id="217" type="SHOWS_EMISSIONS" />
+      <edge source="Micronesia" target="CO2 Growth (%)" id="218" type="SHOWS_EMISSIONS" />
+      <edge source="Micronesia" target="Population" id="219" type="SHOWS_EMISSIONS" />
+      <edge source="Micronesia" target="GHG per Capita" id="220" type="SHOWS_EMISSIONS" />
+      <edge source="Micronesia" target="Land Use CO2" id="221" type="SHOWS_EMISSIONS" />
+      <edge source="Micronesia" target="GDP" id="222" type="SHOWS_EMISSIONS" />
+      <edge source="Cook Islands" target="1865" id="223" type="MEASURED_IN" />
+      <edge source="Cook Islands" target="Total CO2 Emissions" id="224" type="SHOWS_EMISSIONS" />
+      <edge source="Cook Islands" target="CO2 Growth (%)" id="225" type="SHOWS_EMISSIONS" />
+      <edge source="Cook Islands" target="Population" id="226" type="SHOWS_EMISSIONS" />
+      <edge source="Cook Islands" target="GHG per Capita" id="227" type="SHOWS_EMISSIONS" />
+      <edge source="Cook Islands" target="Land Use CO2" id="228" type="SHOWS_EMISSIONS" />
+      <edge source="Cook Islands" target="GDP" id="229" type="SHOWS_EMISSIONS" />
+    </edges>
+  </graph>
+</gexf>
