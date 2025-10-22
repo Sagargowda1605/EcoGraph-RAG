@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  neo4j:
+   image: neo4j:latest
+   restart: always
+   environment:
+    NEO4J_AUTH: neo4j/testing_password
+    NEO4J_dbms_memory_heap_max__size: 1G
+    NEO4J_PLUGINS: '["apoc"]'
+    NEO4J_dbms_security_procedures_unrestricted: 'apoc.*'
+   volumes:
+      - neo4j_data:/data
+   ports:     
+    - "7474:7474"
+    - "7687:7687"
+   networks:
+      - rag_network
+       
+  rag_api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rag_api
+    command: ["python", "-m", "uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+
+    depends_on:
+      - neo4j
+    ports:
+      - 8000:8000
+    environment:
+      # Pass credentials for the Python app to connect to Neo4j
+      NEO4J_URI: bolt://neo4j:7687  # Connects to the service named 'neo4j'
+      NEO4J_USERNAME: neo4j
+      NEO4J_PASSWORD: testing_password
+    volumes:
+      - .:/app
+    networks:
+      - rag_network
+    
+
+volumes:
+  neo4j_data:
+   driver: local
+
+networks:
+  rag_network:
+    driver: bridge
+  
+   

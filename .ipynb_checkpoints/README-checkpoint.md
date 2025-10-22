@@ -16,7 +16,6 @@ The pipeline integrates three distinct technologies to achieve high accuracy and
 
 2. **Structural Retrieval (GraphRAG)**: Uses graph traversal to find explicit relationships between entities (e.g., Policy → Emission Value → Country).
 
-3. **Fusion**: The LLM combines the semantic text and the structural path for a grounded, traceable answer.
 
 ---
 
