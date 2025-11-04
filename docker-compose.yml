@@ -2,37 +2,67 @@ version: '3.8'
 
 services:
   neo4j:
-   image: neo4j:latest
-   restart: always
-   environment:
-    NEO4J_AUTH: neo4j/testing_password
-    NEO4J_dbms_memory_heap_max__size: 1G
-    NEO4J_PLUGINS: '["apoc"]'
-    NEO4J_dbms_security_procedures_unrestricted: 'apoc.*'
-   volumes:
+    image: neo4j:latest
+    container_name: neo4j_db
+    restart: always
+    environment:
+      NEO4J_AUTH: neo4j/testing_password
+      NEO4J_dbms_memory_heap_max__size: 1G
+      NEO4J_PLUGINS: '["apoc"]'
+      NEO4J_dbms_security_procedures_unrestricted: 'apoc.*'
+    volumes:
       - neo4j_data:/data
-   ports:     
-    - "7474:7474"
-    - "7687:7687"
-   networks:
+    ports:     
+      - "7474:7474"  # Neo4j Browser
+      - "7687:7687"  # Bolt protocol
+    networks:
       - rag_network
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider localhost:7474 || exit 1"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama_server
+    restart: always
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama  # Persist downloaded models
+    networks:
+      - rag_network
+    # Optional: If you have GPU
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
        
   rag_api:
     build:
       context: .
       dockerfile: Dockerfile
     container_name: rag_api
-    command: ["python", "-m", "uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
-
+    command: ["python", "-m", "uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
     depends_on:
-      - neo4j
+      neo4j:
+        condition: service_healthy
+      ollama:
+        condition: service_started
     ports:
-      - 8000:8000
+      - "8000:8000"
     environment:
-      # Pass credentials for the Python app to connect to Neo4j
-      NEO4J_URI: bolt://neo4j:7687  # Connects to the service named 'neo4j'
+      # Neo4j connection
+      NEO4J_URI: bolt://neo4j:7687
       NEO4J_USERNAME: neo4j
       NEO4J_PASSWORD: testing_password
+      # Ollama connection
+      OLLAMA_HOST: http://ollama:11434
+      OLLAMA_BASE_URL: http://ollama:11434
     volumes:
       - .:/app
     networks:
@@ -41,10 +71,10 @@ services:
 
 volumes:
   neo4j_data:
-   driver: local
+    driver: local
+  ollama_data:
+    driver: local
 
 networks:
   rag_network:
     driver: bridge
-  
-   
